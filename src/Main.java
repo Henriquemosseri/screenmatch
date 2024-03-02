@@ -7,38 +7,28 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Filme filmeFavorito = new Filme();
-        filmeFavorito.setNome("Taxi driver");
-        filmeFavorito.setAnoDeLancamento(1976);
-        filmeFavorito.setDuracaoEmMinutos(114);
+
+
+        Filme filmeFavorito = new Filme("Taxi driver", 1976);
         filmeFavorito.avalia(9);
         filmeFavorito.avalia(9.5);
         filmeFavorito.avalia(10);
         System.out.println("Média de avaliações: "+ filmeFavorito.getpegaMedia());
 
-
-        Filme filme2= new Filme();
-        filme2.setNome("Donnie Darko");
-        filme2.setAnoDeLancamento(2001);
-        filme2.setDuracaoEmMinutos(110);
+        Filme filme2= new Filme("Donnie Darko", 2001);
         filme2.avalia(9);
         filme2.avalia(8);
         filme2.avalia(6);
         System.out.println("Média de avaliações: "+ filme2.getpegaMedia());
 
 
-        Filme filme3 = new Filme();
-        filme3.setNome("Valerie and her week of wonders");
-        filme3.setAnoDeLancamento(1970);
-        filme3.setDuracaoEmMinutos(77);
+        Filme filme3 = new Filme("Valerie and her week of wonders", 1970);
         filme3.avalia(10);
         filme3.avalia(7);
         filme3.avalia(2);
         System.out.println("Média de avaliações: "+ filme3.getpegaMedia());
 
-        Serie lost= new Serie();
-        lost.setNome("lost");
-        lost.setAnoDeLancamento(2000);
+        Serie lost= new Serie("Lost", 2000);
         lost.exibeFichaTecnica();
         lost.setTemporadas(10);
         lost.setEpisodiosPorTemporada(10);
@@ -46,13 +36,9 @@ public class Main {
 
         System.out.println("Duração para marotonar Lost: "+ lost.getDuracaoEmMinutos()+ "minutos");
 
-        var outroFilme= new Filme();
-        outroFilme.setNome("Breathless");
-        outroFilme.setDuracaoEmMinutos(90);
-
         CalculadoraDeTempo calculadora= new CalculadoraDeTempo();
         calculadora.inclui(filmeFavorito);
-        calculadora.inclui(outroFilme);
+        calculadora.inclui(filme2);
         calculadora.inclui(lost);
         System.out.println(calculadora.getTempoTotal());
 

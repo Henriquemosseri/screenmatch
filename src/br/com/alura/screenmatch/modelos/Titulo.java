@@ -67,5 +67,10 @@ public class Titulo {
         System.out.println("titulo: "+ getNome());
         System.out.println("ano de lançamento: "+ getAnoDeLancamento());
     }
+
+    public Titulo(String nome, int anoDeLancamento) {
+        this.nome = nome;
+        this.anoDeLancamento = anoDeLancamento;
+    }
 }
 

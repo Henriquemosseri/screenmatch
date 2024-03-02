@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72fe39bd-02f7-4502-bea5-0629ec688e0b" name="Changes" comment="Add 20240212 (final version)">
+    <list default="true" id="72fe39bd-02f7-4502-bea5-0629ec688e0b" name="Changes" comment="add after watch the first module of course &quot;Java: trabalhando com listas e coleções de dados&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707767567760</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add after watch the first module of course &quot;Java: trabalhando com listas e coleções de dados&quot;">
+      <created>1707869923397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707869923398</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +102,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add 20240122" />
     <MESSAGE value="Add 20240212 (final version)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add 20240212 (final version)" />
+    <MESSAGE value="add after watch the first module of course &quot;Java: trabalhando com listas e coleções de dados&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add after watch the first module of course &quot;Java: trabalhando com listas e coleções de dados&quot;" />
   </component>
 </project>
